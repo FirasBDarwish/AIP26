@@ -4,7 +4,17 @@
 
 # Welcome to the National AI Program 2026! 
 
-This repository contains the various Jupyter Notebooks we will follow during this course. This course will almost entirely be taught in Python. 
+This repository contains the various Jupyter Notebooks we will follow during this course. This course will almost entirely be taught in Python.
+
+# File Usage
+
+We will use this repository to share Jupyter notebooks and RapidMiner files throughout the course. The repository is organized based on week number (1-5)/day of the week (1-5).
+
+1. To use the notebook in your local Anaconda environment, simply download the notebook from the top right.
+2. To use the notebook via Google colab, follow the below instructions:
+    - copy the URL into this website: https://openincolab.com
+    - click on Generate
+    - click on the badge that says Open in Colab
 
 # Installation Instructions
 
