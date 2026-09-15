@@ -2,7 +2,7 @@
 
 ![National AI Program](https://www.atlanticcouncil.org/wp-content/uploads/2020/03/UAE-National-Program-for-AI.png)
 
-# Welcome to the AI Programme 2026! 
+# Welcome to the National AI Program 2026! 
 
 This repository contains the various Jupyter Notebooks we will follow during this course. This course will almost entirely be taught in Python. 
 
