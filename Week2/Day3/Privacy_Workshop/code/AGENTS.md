@@ -14,6 +14,7 @@ The exercise has three distinct stages:
 
 - `starter.py` is the **only implementation location** for the student's anonymisation/data minimisation strategy. Decisions must originate from the scenario, participant brief, data dictionary, and the student's own justification, not from the audit implementation.
 - `data/hospital_discharge_raw.csv` is a **fully synthetic input**. Do not read or inspect it when designing or implementing anonymisation transformations. It may only be loaded during Part 3 for the explicitly authorised model-training comparison.
+- `data/patient_viewer.html` is an HTML display of the `data/hospital_discharge_raw.csv` file.
 - `encounters_private.csv` is the generated anonymised output. Never claim it is anonymous without an appropriate contextual assessment.
 - `solution_checker/privacy_checker.py` is a **post-hoc independent diagnostic**. It is NOT a specification of which transformations to choose, NOT example code for `starter.py`, and NOT a target to optimise against.
 - `model_eval.py` (or another student-created evaluation script) may contain code for preprocessing, model training, prediction, and performance comparison. It must not implement or modify anonymisation transformations.
@@ -23,7 +24,7 @@ The exercise has three distinct stages:
 
 ### Strong separation rule
 
-**Do not read, inspect, import, copy, reverse engineer, or use the contents of `solution_checker/privacy_checker.py` or `data/hospital_discharge_raw.csv` to decide or implement anonymisation choices in `starter.py`.**
+**Do not read, inspect, import, copy, reverse engineer, or use the contents of `solution_checker/privacy_checker.py` or `data/hospital_discharge_raw.csv` or `data/patient_viewer.html` to decide or implement anonymisation choices in `starter.py`.**
 
 The coding agent must:
 
